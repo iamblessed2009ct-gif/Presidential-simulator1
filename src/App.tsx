@@ -1,5 +1,5 @@
 import { useMemo, useState, type ReactNode } from 'react';
-import { ArrowLeft, ArrowRight, BarChart3, Bot, ChevronRight, CircleDollarSign, Globe2, Landmark, Menu, Newspaper, Shield, Sparkles, TrendingUp, Users, X } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ChartBar as BarChart3, Bot, ChevronRight, CircleDollarSign, Globe as Globe2, Landmark, Menu, Newspaper, Shield, Sparkles, TrendingUp, Users, X } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { askAdvisor, generateProposalResult } from '@/lib/ai';
 import { fallbackResult, issues, stateAbbr, states } from '@/lib/data';
