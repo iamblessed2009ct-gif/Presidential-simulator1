@@ -1,0 +1,3 @@
+[functions.presidential-response]
+verify_jwt = false
+entrypoint = "./functions/presidential-response/index.ts"
